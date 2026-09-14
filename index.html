@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about JGC Backups, the private backup and recovery application for John Gordon Construction Inc.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>JGC Backups | John Gordon Construction Inc.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">John Gordon Construction Inc.</p>
+    <h1>JGC Backups</h1>
+    <p class="lead">Private backup and recovery for JGC Portal and Estimate Desk.</p>
+  </header>
+  <nav aria-label="Information pages"><a href="index.html" aria-current="page">About</a><a href="privacy.html">Privacy policy</a><a href="#contact">Contact</a></nav>
+  <aside class="notice"><strong>Setup in progress.</strong> Automated backups and recovery testing are being configured. This information page does not mean that backups are running or that a recovery test has passed.</aside>
+  <section aria-labelledby="purpose">
+    <h2 id="purpose">What the application does</h2>
+    <p>JGC Backups is being developed for the company's designated operator to protect business records and test recovery. It is not a public storage service. This website does not provide access to company records or connect to the live portal.</p>
+    <p>The planned workflow creates an encrypted recovery set once a week, saves it in a designated private Google Drive folder, retrieves it to verify the saved copy, and tests recovery in a separate, isolated environment. A company-controlled external storage device provides an additional copy when connected.</p>
+    <p>The normal retention period is two calendar months. The latest verified backup is retained longer if a replacement fails, so a failed run does not remove the last known-good recovery point.</p>
+  </section>
+  <section aria-labelledby="access">
+    <h2 id="access">Limited Google Drive access</h2>
+    <p>The application is configured to request Google's <code>drive.file</code> permission. This covers files created by the application or explicitly selected for use with it. Authorization and selection of the backup folder are separate setup steps.</p>
+    <p>The application does not request permission to read Gmail messages or access all unrelated Drive files. Authorization tokens and backup contents are not published on this website.</p>
+    <p>Read the <a href="privacy.html">privacy policy</a> for information about data use, storage, retention and operator controls.</p>
+  </section>
+  <section id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact</h2>
+    <p>John Gordon Construction Inc.<br><a href="mailto:jgc.timesheets@gmail.com">jgc.timesheets@gmail.com</a></p>
+  </section>
+  <footer>Last updated September 14, 2026. Publishing this page does not imply approval or verification by Google.</footer>
+</main>
+</body>
+</html>
